@@ -1,0 +1,78 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: cadetblue;
+}
+
+header nav ul{
+    margin: 0;
+    padding: 2rem;
+}
+
+header nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 2rem;
+}
+
+header nav ul li a{
+    color: azure;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+iframe{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+/*  border-collapse lo verificamos con el inspector */
+
+table{
+    border-collapse: collapse; 
+}
+
+thead{
+    background-color: burlywood;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+/* forma corta para aplicar estilos por filas */
+/* even= par */
+/* odd= impar */
+
+tbody tr:nth-child(even) {
+    background-color: #bab6b6;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rosybrown;
+}
+
+
+/* .row-rosa{
+    background-color: rosybrown;
+}
+
+.row-grey{
+    background-color: rgb(182, 181, 181);
+} */
